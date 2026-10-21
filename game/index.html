@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#000229">
+  <title>Для Кати</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/heroes.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div id="bg" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
+  <div id="stars" aria-hidden="true"></div>
+
+  <main id="app">
+    <!-- Стартовый экран: приветствие котиков, кнопка «Старт», предупреждение про звук и iPhone -->
+    <section id="screen-start" class="screen">
+      <div class="center start-wrap">
+        <div id="start-media" class="start-media" aria-hidden="true"></div>
+        <h1 id="start-title">Привет!</h1>
+        <p class="muted" id="start-sub"></p>
+        <button class="btn start-btn" id="start-btn">Старт</button>
+        <div class="notice" id="start-notice">
+          <div class="notice-row"><span data-icon="speaker"></span><span>Включи звук и выключи беззвучный режим</span></div>
+          <div class="notice-row"><span data-icon="phone"></span><span>Лучше всего играть на iPhone</span></div>
+          <div class="notice-extra" id="start-notice-extra"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Экран-ворота: обратный отсчёт (по умолчанию выключен, см. config.js) -->
+    <section id="screen-gate" class="screen">
+      <div class="center">
+        <div class="glyph" data-icon="sparkle"></div>
+        <h1 id="gate-title">Что-то приближается…</h1>
+        <p class="muted">Портал откроется через</p>
+        <div id="countdown" class="countdown"></div>
+        <p class="muted small">Возвращайся в этот момент.</p>
+      </div>
+    </section>
+
+    <!-- Вступление -->
+    <section id="screen-intro" class="screen">
+      <div class="dialog-stage">
+        <div id="intro-avatar" class="avatar big"></div>
+        <div class="dialog-box" id="intro-dialog">
+          <div class="speaker" id="intro-speaker"></div>
+          <div class="text" id="intro-text"></div>
+          <button class="btn" id="intro-next">Далее</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Хаб вселенных -->
+    <section id="screen-hub" class="screen">
+      <header class="hub-head">
+        <h1>Выбери игру</h1>
+        <p>Три игры, пройди каждую</p>
+        <div class="pstars" id="hub-progress"></div>
+      </header>
+      <div id="portals" class="portals"></div>
+    </section>
+
+    <!-- Мир (игра) -->
+    <section id="screen-world" class="screen">
+      <header class="topbar">
+        <button class="icon-btn" id="world-back" aria-label="Назад" data-icon="back"></button>
+        <div class="title" id="world-title"></div>
+        <div style="width:42px"></div>
+      </header>
+      <div id="world-stage" class="world-stage"></div>
+    </section>
+
+    <!-- Финал -->
+    <section id="screen-finale" class="screen">
+      <div id="fin-photos" aria-hidden="true"></div>
+      <div id="fin-title" class="fin-title">!!!С 24-ым ДНЕМ РОЖДЕНИЯ!!!</div>
+      <canvas id="fin-fx" aria-hidden="true"></canvas>
+      <div id="fin-sub" class="fin-sub"><span id="fin-who"></span><p id="fin-text"></p></div>
+    </section>
+  </main>
+
+  <button id="sound-btn" class="sound-btn" aria-label="Звук"></button>
+  <div id="toast" class="toast"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/alphavideo.js"></script>
+  <script src="js/universes.js"></script>
+  <script src="js/tanks.js"></script>
+  <script src="js/mk.js"></script>
+  <script src="js/heroes_core.js"></script>
+  <script src="js/heroes_data.js"></script>
+  <script src="js/heroes_story.js"></script>
+  <script src="js/hmini_arm.js"></script>
+  <script src="js/hmini_cups.js"></script>
+  <script src="js/hmini_mk.js"></script>
+  <script src="js/heroes_ui.js"></script>
+  <script src="js/heroes_battle.js"></script>
+  <script src="js/heroes_map.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

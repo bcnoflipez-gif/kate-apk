@@ -1,0 +1,148 @@
+{
+ "units": {
+  "kasi_idle": [
+   237,
+   360
+  ],
+  "kasi_atk1": [
+   287,
+   360
+  ],
+  "kasi_atk2": [
+   315,
+   360
+  ],
+  "kasi_atk3": [
+   287,
+   360
+  ],
+  "van_idle": [
+   220,
+   360
+  ],
+  "van_atk1": [
+   308,
+   360
+  ],
+  "van_atk2": [
+   319,
+   360
+  ],
+  "van_atk3": [
+   307,
+   360
+  ],
+  "miha_idle": [
+   269,
+   360
+  ],
+  "miha_atk": [
+   288,
+   360
+  ],
+  "denchik_idle": [
+   301,
+   360
+  ],
+  "denchik_atk": [
+   315,
+   360
+  ],
+  "saler_idle": [
+   196,
+   360
+  ],
+  "saler_atk": [
+   268,
+   360
+  ],
+  "nightmare_idle": [
+   205,
+   360
+  ],
+  "nightmare_atk": [
+   275,
+   360
+  ],
+  "swamp_idle": [
+   272,
+   360
+  ],
+  "swamp_atk": [
+   269,
+   360
+  ],
+  "gar1_idle": [
+   316,
+   360
+  ],
+  "gar1_atk": [
+   360,
+   322
+  ],
+  "gar2_idle": [
+   316,
+   360
+  ],
+  "gar2_atk": [
+   360,
+   322
+  ],
+  "smoker_idle": [
+   289,
+   360
+  ],
+  "smoker_atk": [
+   273,
+   360
+  ],
+  "smokerkid_idle": [
+   339,
+   360
+  ],
+  "smokerkid_atk": [
+   327,
+   360
+  ],
+  "krugpug_idle": [
+   263,
+   360
+  ],
+  "krugpug_atk": [
+   269,
+   360
+  ],
+  "bodyguard_idle": [
+   164,
+   360
+  ],
+  "bodyguard_atk": [
+   251,
+   360
+  ],
+  "barinov_idle": [
+   184,
+   360
+  ],
+  "barinov_atk": [
+   309,
+   360
+  ],
+  "alk1_idle": [
+   183,
+   360
+  ],
+  "alk1_atk": [
+   270,
+   360
+  ],
+  "alk2_idle": [
+   148,
+   360
+  ],
+  "alk2_atk": [
+   267,
+   360
+  ]
+ }
+}
